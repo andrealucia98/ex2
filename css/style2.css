@@ -10,12 +10,25 @@
 
 .titulo::after{
 	content: '';
-	height: 1px;
+	height: 2px;
 	background-color: #fff;
 	width: 100px;
 	display: block; 
 	margin: 10px auto;
 }
+
+
+.titulo2::after{
+	content: '';
+	height: 2px;
+	background-color: #2435D1;
+	width: 100px;
+	display: block; 
+	margin: 10px auto;
+}
+
+
+
 
 #sec-clients h2{
 	color: #2435a1;
@@ -199,6 +212,8 @@ footer{
 	text-align: center;
 }
 
-
+.textowelcome p{
+	text-align: left;
+}
 
 
